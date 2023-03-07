@@ -1,0 +1,33 @@
+//Base de datos
+export const usuarios = [
+    {
+        id:1,
+        nick:"Edgar",
+        email:"edgarmunozmanjon@gmail.com",
+        password:"1223444"
+    },
+    {
+        id:2,
+        nick:"Antonia",
+        email:"antonia@gmail.com",
+        password:"goku"
+    },
+    {
+        id:3,
+        nick:"Pepe",
+        email:"pepe@gmail.com",
+        password:"luna"
+    },
+    {
+        id:4,
+        nick:"Juan",
+        email:"juan@gmail.com",
+        password:"1234"
+    },
+    {
+        id:5,
+        nick:"Sandra",
+        email:"sandra@gmail.com",
+        password:"asded"
+    },
+]
