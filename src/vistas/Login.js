@@ -4,7 +4,7 @@ export const login = {
     <form id="formlogin" class="row g-3 d-block needs-validation" novalidate >
         <div class="col-md-10">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" required>
+            <input id="email" type="email" class="form-control" required>
             <!-- mensaje si valida -->
             <div class="valid-feedback">Email correcto</div>
             <!-- mensaje si no valida -->
