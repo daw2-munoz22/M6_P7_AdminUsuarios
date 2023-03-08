@@ -1,5 +1,6 @@
 export const login = {
     template: `
+   <h1 class="pb-3">Login</h1> 
     <form id="formlogin" class="row g-3 d-block needs-validation" novalidate >
         <div class="col-md-10">
             <label for="email" class="form-label">Email</label>
