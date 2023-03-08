@@ -20,6 +20,9 @@ export const header ={
             <li class="nav-item">
             <a class="nav-link" href="#" id="admin">Admin</a>
             </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#" id="login">Login</a>
+            </li>
         </ul>
         </div>
     </div>
@@ -40,7 +43,11 @@ export const header ={
         document.querySelector('#admin').addEventListener('click',()=>{
             router.admin()
         })
-
+        
+        //login
+        document.querySelector('#login').addEventListener('click', ()=>{
+            router.login()
+        })
         const main = document.querySelector("main")
         //detectamos el evento click en los botones eliminar y editar
         main.addEventListener("click",(event)=>{

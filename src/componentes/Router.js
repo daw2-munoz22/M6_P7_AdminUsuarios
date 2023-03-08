@@ -5,6 +5,7 @@ import { usuarios } from "./Usuario.js";
 import { v4 as uuidv4 } from 'uuid';
 import multiavatar from '@multiavatar/multiavatar/esm'
 import { editarPerfil } from "./EditarPerfil.js";
+import { login } from "../vistas/Login.js";
 
 export const router = {
     home: ()=>{
@@ -47,6 +48,10 @@ export const router = {
     about: ()=>{
         document.querySelector('main').innerHTML = `<h1>About</h1>`
 
+    },
+    login: ()=>{
+        document.querySelector('main').innerHTML = login.template;
+        login.script()
     },
     //eliminar usuarios
     eliminar: (evento)=>{
